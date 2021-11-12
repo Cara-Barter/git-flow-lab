@@ -19,7 +19,23 @@ const poems = [
   // YOUR CODE HERE: Add an object containing two key value pairs: author and poem. Set the author property as equal to a string with your first name. Set the poem property as equal to a short "roses are red" poem. Use the new line character as in the example when you would like a line break.
 {author: "Christy",
 poem: "Cheerful summertime \n A rich, hairy chocolate chirps \n whilst watching the frog",
-image: "flower.jpeg"}
+image: "flower.jpeg"},
+  {
+    author: "Cara",
+    poem: "Our life is like, /n a thorny rose /n Not perfect, /n but always beautiful",
+    image: "rose.png"
+  },
+  // YOUR CODE HERE: Add an object containing two key value pairs: author and poem. Set the author property as equal to a string with your first name. Set the poem property as equal to a short "roses are red" poem. Use the new line character as in the example when you would like a line break.
+  {
+    author: "Fannn",
+    poem: "Roses Are Red \n Sky is blue \n Ocean is deep \n And you might drown",
+    image: "ocean.jpg"},
+
+  {
+    author: "Ryan",
+    poem: "You can have all the money in the world, but there is one thing you will never have... a dinosaur!!!",
+    image: "./assets/download.jpeg",
+  },
 ];
 
 let displayPoems = (array) => {
